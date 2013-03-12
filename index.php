@@ -20,6 +20,6 @@ switch($uc){
 	}
 }
 include("vues/v_pied.php") ;
-//comm de pepper
+//comm de pepper nnnnn
 ?>
 
