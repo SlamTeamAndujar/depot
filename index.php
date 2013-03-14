@@ -20,6 +20,10 @@ switch($uc){
 	}
 }
 include("vues/v_pied.php") ;
-//comm de pepper nnnnn
+/*
+ * Coucou 
+ */
+
+//1236478
 ?>
 
