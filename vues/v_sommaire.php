@@ -23,7 +23,7 @@
               Consultations
            </li>
            <li class="smenu">
-              <a href="index.php?uc=" title="Consulter les médicaments">    Médicaments</a>
+              <a href="index.php?uc=consulterMedicaments&action=voirMedicaments" title="Consulter les médicaments">    Médicaments</a>
            </li><li class="smenu">
               <a href="index.php?uc=" title="Consulter les praticiens">Praticiens</a>
            </li>
