@@ -69,5 +69,13 @@ class PdoGsb{
         // ou return $this->_pdo->query($query)->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    public function getLesMedicaments() {
+        $req="SELECT  `MED_DEPOTLEGAL` ,  `MED_NOMCOMMERCIAL` , FAM_LIBELLE,  `MED_COMPOSITION` ,  `MED_CONTREINDIC` ,  `MED_PRIXECHANTILLON` 
+              FROM  `medicament` 
+              JOIN famille ON medicament.fam_code = famille.fam_code";
+        $rs= PdoGsb::$monPdo->query($req);
+                $ligne = $rs->fetchAll (PDO::FETCH_ASSOC);
+                return $ligne;
+    }
 }   
   ?>
