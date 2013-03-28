@@ -77,6 +77,7 @@ class PdoGsb{
                 $ligne = $rs->fetchAll (PDO::FETCH_ASSOC);
                 return $ligne;
     }
+<<<<<<< HEAD
     
     public function getRapportVisite(){
         $req = "select * from rapport_visite";
@@ -84,5 +85,7 @@ class PdoGsb{
                 $ligne = $rs->fetchAll (PDO::FETCH_ASSOC);
                 return $ligne;
     }
+=======
+>>>>>>> 032457b7d4024ede94004110e26e376a80a51558
 }   
   ?>
