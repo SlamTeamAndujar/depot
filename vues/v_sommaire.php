@@ -10,16 +10,18 @@
 				 Bienvenue :<br>
 				<?php echo $_SESSION['prenom']."  ".$_SESSION['nom']  ?>
 			</li>
+                        </br>
               <li class="smenu">
                    Comptes rendus 
            </li> 
            <li class="smenu">
-              <a href="index.php?uc=gererCR&action=saisirCR=" title="Nouveaux comptes rendus">Nouveaux</a>
+              <a href="index.php?uc=gererCR&action=saisirCR" title="Nouveaux comptes rendus">Nouveaux</a>
            </li>
            <li class="smenu">
-              <a href="index.php?uc=" title="Consulter les comptes rendus">Consulter</a>
+              <a href="index.php?uc=gererCR&action=saisirCR" title="Consulter les comptes rendus">Consulter</a>
            </li><li class="smenu">
            <li class="smenu">
+               </br>
               Consultations
            </li>
            <li class="smenu">
@@ -27,6 +29,7 @@
            </li><li class="smenu">
               <a href="index.php?uc=" title="Consulter les praticiens">Praticiens</a>
            </li>
+           </br>
            <li class="smenu">
               <a href="index.php?uc=connexion&action=deconnexion" title="Se déconnecter">Déconnexion</a>
            </li>
